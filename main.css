@@ -1,3 +1,4 @@
+/*GENERAL*/
 * {
     padding: 0;
     margin: 0;
@@ -9,8 +10,8 @@ body {
     font-size: 20px;
     background: #eeeeee
 }
-
-.main-header{
+/*HEADER*/
+.main-header {
     margin-bottom: 50px;
     padding: 15px;
     background-color: #fff;
@@ -20,7 +21,7 @@ body {
     vertical-align: middle;
 }
 /* CONTAINER */
-.section{
+.section {
     width: 1170px;
     margin: 0 auto;
     padding: 15px;
@@ -33,6 +34,7 @@ body {
     margin: 0 auto;
     padding-top: 20px;
     padding-left: 50px;
+    padding-bottom: 50px;
     background-color: #fff;
     border-radius: 5px;
     
@@ -48,11 +50,16 @@ body {
     text-align: center;
     line-height: 40px;
     border-radius: 5px;
-    color: white;
     text-transform: uppercase;
     font-size: 14px;
 }
-.adds{
+
+a {
+    text-decoration: none;
+    color: white;
+  }
+
+.adds {
     width: 100px;
     height: 20%;
     margin-right: 10px;
@@ -62,7 +69,6 @@ body {
     line-height: 40px;
     border-radius: 5px;
     border: 1px solid gray;
-    color: gray;
     text-transform: uppercase;
     font-size: 14px;
 }
@@ -89,7 +95,7 @@ h2 {
     border-radius: 50%;
 }
 
-.iconrem{
+.iconrem {
     color: red;
     border: 1px solid red;
 }
