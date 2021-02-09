@@ -20,10 +20,48 @@ body {
     vertical-align: middle;
 }
 /* CONTAINER */
+.section{
+    width: 1170px;
+    margin: 0 auto;
+    padding: 15px;
+    background-color: #fff;
+    border-radius: 5px;
+    border-bottom: 3px solid #eeeeee;
+}
 .container {
     width: 1170px;
     margin: 0 auto;
     padding: 15px;
     background-color: #fff;
     border-radius: 5px;
+    
+}
+/* LINE INBOX*/
+.add {
+    width: 100px;
+    height: 20%;
+    margin-right: 10px;
+    margin-left: 50px;
+    background: dodgerblue;
+    display: inline-block;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 5px;
+    color: white;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+.adds{
+    width: 100px;
+    height: 20%;
+    margin-right: 10px;
+    background: white;
+    display: inline-block;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    color: gray;
+    text-transform: uppercase;
+    font-size: 14px;
 }
