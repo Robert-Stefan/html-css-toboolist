@@ -50,7 +50,6 @@ body {
     text-align: center;
     line-height: 40px;
     border-radius: 5px;
-    text-transform: uppercase;
     font-size: 14px;
 }
 
@@ -69,7 +68,6 @@ a {
     line-height: 40px;
     border-radius: 5px;
     border: 1px solid gray;
-    text-transform: uppercase;
     font-size: 14px;
 }
 /* MY LIST */
@@ -96,12 +94,13 @@ h2 {
 }
 
 .iconrem {
+    font-size: 10px;
     color: red;
     border: 1px solid red;
 }
 /* BUTTON */
 .butt1 {
-    width: 100px;
+    width: 70px;
     height: 20%;
     margin-left: 5px;
     background: dodgerblue;
@@ -110,25 +109,29 @@ h2 {
     line-height: 26px;
     border-radius: 15px;
     color: white;
-    text-transform: uppercase;
     font-size: 13px;
 }
 .butt2 {
+    width: 80px;
     background: purple;
 }
 
 .butt3 {
+    width: 80px;
     background:green;
 }
 
 .butt4 {
+    width: 60px;
     background: orange;
 }
 
 .butt5 { 
+    width: 60px;
     background: pink;
 }
 
 .butt6 {
+    width: 60px;
     background: greenyellow;
 }
